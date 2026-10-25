@@ -1,9 +1,10 @@
 # Shell, basics
 
-- `0-current_working_directory`: prints the absolute path of the current working directory (`pwd`).
-- `1-listit`: displays the contents list of the current directory (`ls`).
-- `2-bring_me_home`: changes the working directory to the user's home directory (`cd`).
-- `3-listfiles`: displays the current directory contents in long format (`ls -l`).
-- `4-listmorefiles`: displays the current directory contents, including hidden files, in long format (`ls -la`).
-- `5-listfilesdigitonly`: displays the current directory contents, including hidden files, in long format with numeric user and group IDs (`ls -lan`).
-- 
+| File | Command | Description |
+|------|---------|-------------|
+| `0-current_working_directory` | `pwd` | Prints the absolute path of the current working directory. |
+| `1-listit` | `ls` | Displays the contents list of the current directory. |
+| `2-bring_me_home` | `cd` | Changes the working directory to the user's home directory. |
+| `3-listfiles` | `ls -l` | Displays the current directory contents in long format. |
+| `4-listmorefiles` | `ls -la` | Displays the current directory contents, including hidden files, in long format. |
+| `5-listfilesdigitonly` | `ls -lan` | Displays the current directory contents, including hidden files, in long format with numeric user and group IDs. |
