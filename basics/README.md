@@ -14,3 +14,5 @@
 | `9-firstdirdeletion` | `rmdir /tmp/my_first_directory` | Deletes the empty directory `my_first_directory` from `/tmp`. |
 | `10-back` | `cd -` | Changes the working directory to the previous one. |
 | `11-lists` | `ls -la . .. /boot` | Lists all files, including hidden ones, in the current directory, the parent directory and `/boot`, in long format. |
+| `12-file_type` | `file /tmp/iamafile` | Prints the type of the file `iamafile` located in `/tmp`. |
+
