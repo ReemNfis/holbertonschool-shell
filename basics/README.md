@@ -15,4 +15,5 @@
 | `10-back` | `cd -` | Changes the working directory to the previous one. |
 | `11-lists` | `ls -la . .. /boot` | Lists all files, including hidden ones, in the current directory, the parent directory and `/boot`, in long format. |
 | `12-file_type` | `file /tmp/iamafile` | Prints the type of the file `iamafile` located in `/tmp`. |
-
+| `13-symbolic_link` | `ln -s /bin/ls __ls__` | Creates a symbolic link named `__ls__` to `/bin/ls` in the current working directory. |
+| `14-copy_html` | `cp -u *.html ..` | Copies HTML files from the current directory to the parent directory, only if they are new or newer. |
