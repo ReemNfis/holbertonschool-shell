@@ -9,4 +9,4 @@
 | `4-listmorefiles` | `ls -la` | Displays the current directory contents, including hidden files, in long format. |
 | `5-listfilesdigitonly` | `ls -lan` | Displays the current directory contents, including hidden files, in long format with numeric user and group IDs. |
 | `6-firstdirectory` | `mkdir /tmp/my_first_directory` | Creates a directory named `my_first_directory` in the `/tmp/` directory. |
-
+| `7-movethatfile` | `mv /tmp/betty /tmp/my_first_directory` | Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory`. |
