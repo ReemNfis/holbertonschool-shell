@@ -5,3 +5,5 @@
 - `2-bring_me_home`: changes the working directory to the user's home directory (`cd`).
 - `3-listfiles`: displays the current directory contents in long format (`ls -l`).
 - `4-listmorefiles`: displays the current directory contents, including hidden files, in long format (`ls -la`).
+- `5-listfilesdigitonly`: displays the current directory contents, including hidden files, in long format with numeric user and group IDs (`ls -lan`).
+- 
