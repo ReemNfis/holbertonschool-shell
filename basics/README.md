@@ -8,3 +8,5 @@
 | `3-listfiles` | `ls -l` | Displays the current directory contents in long format. |
 | `4-listmorefiles` | `ls -la` | Displays the current directory contents, including hidden files, in long format. |
 | `5-listfilesdigitonly` | `ls -lan` | Displays the current directory contents, including hidden files, in long format with numeric user and group IDs. |
+| `6-firstdirectory` | `mkdir /tmp/my_first_directory` | Creates a directory named `my_first_directory` in the `/tmp/` directory. |
+
