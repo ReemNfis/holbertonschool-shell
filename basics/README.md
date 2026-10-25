@@ -18,3 +18,4 @@
 | `13-symbolic_link` | `ln -s /bin/ls __ls__` | Creates a symbolic link named `__ls__` to `/bin/ls` in the current working directory. |
 | `14-copy_html` | `cp -u *.html ..` | Copies HTML files from the current directory to the parent directory, only if they are new or newer. |
 | `15-lets_move` | `mv [A-Z]* /tmp/u`  `mv [[:upper:]]* /tmp/u` | Moves all files beginning with an uppercase letter to `/tmp/u`. |
+| `16-clean_emacs` | `rm *~` | Deletes all files in the current working directory that end with `~`. |
