@@ -12,3 +12,4 @@
 | `7-movethatfile` | `mv /tmp/betty /tmp/my_first_directory` | Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory`. |
 | `8-firstdelete` | `rm /tmp/my_first_directory/betty` | Deletes the file `betty` from `/tmp/my_first_directory`. |
 | `9-firstdirdeletion` | `rmdir /tmp/my_first_directory` | Deletes the empty directory `my_first_directory` from `/tmp`. |
+| `10-back` | `cd -` | Changes the working directory to the previous one. |
