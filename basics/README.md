@@ -10,3 +10,4 @@
 | `5-listfilesdigitonly` | `ls -lan` | Displays the current directory contents, including hidden files, in long format with numeric user and group IDs. |
 | `6-firstdirectory` | `mkdir /tmp/my_first_directory` | Creates a directory named `my_first_directory` in the `/tmp/` directory. |
 | `7-movethatfile` | `mv /tmp/betty /tmp/my_first_directory` | Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory`. |
+| `8-firstdelete` | `rm /tmp/my_first_directory/betty` | Deletes the file `betty` from `/tmp/my_first_directory`. |
