@@ -17,3 +17,4 @@
 | `12-file_type` | `file /tmp/iamafile` | Prints the type of the file `iamafile` located in `/tmp`. |
 | `13-symbolic_link` | `ln -s /bin/ls __ls__` | Creates a symbolic link named `__ls__` to `/bin/ls` in the current working directory. |
 | `14-copy_html` | `cp -u *.html ..` | Copies HTML files from the current directory to the parent directory, only if they are new or newer. |
+| `15-lets_move` | `mv [A-Z]* /tmp/u`  `mv [[:upper:]]* /tmp/u` | Moves all files beginning with an uppercase letter to `/tmp/u`. |
