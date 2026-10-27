@@ -3,3 +3,4 @@
 | File | Command | Description |
 |---|---|---|
 | 0-hello_world | `echo "Hello, World"` | Prints "Hello, World" followed by a new line to the standard output. |
+1-confused_smiley: prints the confused smiley "(Ôo)'
