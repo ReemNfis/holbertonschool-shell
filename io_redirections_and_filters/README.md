@@ -6,3 +6,4 @@
 | `1-confused_smiley` | Displays the confused smiley `"(Ôo)'` |
 | `2-hellofile` | Displays the content of `/etc/passwd` |
 | `3-twofiles` | Displays the content of `/etc/passwd` followed by `/etc/hosts` |
+| `4-lastlines` | Displays the last 10 lines of `/etc/passwd` |
