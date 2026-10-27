@@ -9,3 +9,4 @@
 | `4-empty` | `touch hello` | Creates an empty file called `hello`. |
 
 
+| `5-execute` | `chmod u+x hello` | Adds execute permission to the owner of the file `hello`. |
