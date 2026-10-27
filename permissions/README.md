@@ -18,3 +18,4 @@
 | `13-change_group` | `chgrp school hello` | Changes the group owner of the file `hello` to `school`. |
 | `14-change_owner_and_group` | `chown vincent:staff *` | Changes the owner to `vincent` and the group owner to `staff` for all files and directories in the working directory. |
 | `15-symbolic_link_permissions` | `chown -h vincent:staff _hello` | Changes the owner and group of the symbolic link `_hello` itself to `vincent` and `staff`. |
+| `16-if_only` | `chown --from=guillaume vincent hello` | Changes the owner of `hello` to `vincent` only if it is owned by `guillaume`. |
