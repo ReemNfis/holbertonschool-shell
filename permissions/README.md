@@ -10,3 +10,4 @@
 | `5-execute` | `chmod u+x hello` | Adds execute permission to the owner of the file `hello`. |
 | `6-multiple_permissions` | `chmod ug+x,o+r hello` | Adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`. |
 | `7-everybody` | `chmod ugo+x hello` | Adds execute permission to the owner, the group owner and other users, to the file `hello`. |
+| `8-James_Bond` | `chmod 007 hello` | Sets no permissions for the owner and group, and all permissions for other users, on the file `hello`. |
