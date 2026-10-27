@@ -15,3 +15,4 @@
 | `10-mirror_permissions` | `chmod --reference=olleh hello` | Sets the mode of the file `hello` the same as `olleh`’s mode. |
 | `11-directories_permissions` | `chmod a+X *` | Adds execute permission to all subdirectories of the current directory for everyone; regular files are not changed. |
 | `12-directory_permissions` | `mkdir -m 751 my_dir` | Creates a directory called `my_dir` with permissions `751` in the working directory. |
+| `13-change_group` | `chgrp school hello` | Changes the group owner of the file `hello` to `school`. |
