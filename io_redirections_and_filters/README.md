@@ -10,3 +10,4 @@
 | `5-firstlines` | Displays the first 10 lines of `/etc/passwd` |
 | `6-third_line` | Displays the third line of the file `iacta` |
 | `7-file` | Creates a file with a complex name containing `Best School` and a newline |
+| `8-cwd_state` | Saves the output of `ls -la` into `ls_cwd_content`, overwriting it each time |
