@@ -12,3 +12,4 @@
 | `7-everybody` | `chmod ugo+x hello` | Adds execute permission to the owner, the group owner and other users, to the file `hello`. |
 | `8-James_Bond` | `chmod 007 hello` | Sets no permissions for the owner and group, and all permissions for other users, on the file `hello`. |
 | `9-John_Doe` | `chmod 753 hello` | Sets the mode of the file `hello` to `-rwxr-x-wx`. |
+| `10-mirror_permissions` | `chmod --reference=olleh hello` | Sets the mode of the file `hello` the same as `olleh`’s mode. |
