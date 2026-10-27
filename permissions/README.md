@@ -16,3 +16,4 @@
 | `11-directories_permissions` | `chmod a+X *` | Adds execute permission to all subdirectories of the current directory for everyone; regular files are not changed. |
 | `12-directory_permissions` | `mkdir -m 751 my_dir` | Creates a directory called `my_dir` with permissions `751` in the working directory. |
 | `13-change_group` | `chgrp school hello` | Changes the group owner of the file `hello` to `school`. |
+| `14-change_owner_and_group` | `chown vincent:staff *` | Changes the owner to `vincent` and the group owner to `staff` for all files and directories in the working directory. |
