@@ -19,3 +19,4 @@
 | `14-findthatword` | Displays the lines of /etc/passwd containing the pattern "root" |
 | `15-countthatword` | Counts the lines of /etc/passwd containing the pattern "bin" |
 | `16-whatsnext` | Displays lines containing "root" in /etc/passwd along with the 3 lines after each match |
+| `17-hidethisword` | Displays all lines of /etc/passwd that do not contain the pattern "bin" |
