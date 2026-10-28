@@ -15,3 +15,4 @@
 | `10-no_more_js` | Deletes all regular files ending with `.js` in the current directory and its subdirectories |
 | `11-directories` | Counts the directories and subdirectories in the current directory, excluding `.` and `..` |
 | `12-newest_files` | Displays the 10 newest files in the current directory, one per line, sorted from newest to oldest |
+| `13-unique` | Prints only the words that appear exactly once in the input, sorted |
