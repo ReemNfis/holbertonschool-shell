@@ -13,3 +13,4 @@
 | `8-cwd_state` | Saves the output of `ls -la` into `ls_cwd_content`, overwriting it each time |
 | `9-duplicate_last_line` | Duplicates the last line of the file `iacta` |
 | `10-no_more_js` | Deletes all regular files ending with `.js` in the current directory and its subdirectories |
+| `11-directories` | Counts the directories and subdirectories in the current directory, excluding `.` and `..` |
