@@ -22,3 +22,4 @@
 | `17-hidethisword` | Displays all lines of /etc/passwd that do not contain the pattern "bin" |
 | `18-letteronly` | Displays all lines of /etc/ssh/sshd_config starting with a letter, uppercase or lowercase |
 | `19-AZ` | Replaces every `A` with `Z` and every `c` with `e` in the input |
+| `20-hiago` | Removes all letters c and C from the input |
