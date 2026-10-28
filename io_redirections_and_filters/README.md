@@ -16,3 +16,4 @@
 | `11-directories` | Counts the directories and subdirectories in the current directory, excluding `.` and `..` |
 | `12-newest_files` | Displays the 10 newest files in the current directory, one per line, sorted from newest to oldest |
 | `13-unique` | Prints only the words that appear exactly once in the input, sorted |
+| `14-findthatword` | Displays the lines of /etc/passwd containing the pattern "root" |
