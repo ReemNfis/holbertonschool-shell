@@ -20,3 +20,4 @@
 | `15-countthatword` | Counts the lines of /etc/passwd containing the pattern "bin" |
 | `16-whatsnext` | Displays lines containing "root" in /etc/passwd along with the 3 lines after each match |
 | `17-hidethisword` | Displays all lines of /etc/passwd that do not contain the pattern "bin" |
+| `18-letteronly` | Displays all lines of /etc/ssh/sshd_config starting with a letter, uppercase or lowercase |
