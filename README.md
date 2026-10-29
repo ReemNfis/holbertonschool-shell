@@ -1,24 +1,10 @@
-# Shell, init files, variables and expansions
+# holbertonschool-shell
 
-Bash scripts covering aliases, variables, expansions and shell arithmetic.
+Bash scripts from the Holberton School shell curriculum, one folder per project.
 
-## Requirements
-
-- Tested on Ubuntu 20.04 LTS with Bash
-- Each script is exactly two lines, starting with `#!/bin/bash`
-- `&&`, `||`, `;`, `bc`, `sed` and `awk` are not allowed
-
-## Usage
-
-Scripts that change the current shell (aliases, variables) must be sourced:
-
-```bash
-source ./0-alias
-```
-
-## Tasks
-
-| File | Command | Description |
-|------|---------|-------------|
-| `0-alias` | `alias ls='rm -f *'` | Creates an alias `ls` that runs `rm -f *` |
-| `1-hello_you` | `echo "hello $USER"` | Prints hello followed by the current user |
+| Folder | Topics |
+|--------|--------|
+| `basics` | Navigating the filesystem, managing files, and reading man pages |
+| `permissions` | File permissions with `chmod`, ownership with `chown`/`chgrp`, users and groups |
+| `io_redirections_and_filters` | Input/output redirection, pipes, and text filters |
+| `init_files_variables_and_expansions` | Init files, variables, expansions, shell arithmetic, and aliases |

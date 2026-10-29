@@ -1,17 +1,24 @@
 # Shell, init files, variables and expansions
 
-Bash scripts covering shell initialization files, variables, expansions, shell arithmetic, and aliases.
+Bash scripts covering init files, variables, expansions, shell arithmetic, and aliases.
 
 ## Requirements
 
-- Tested on Ubuntu 20.04 LTS
-- Each script is exactly two lines long and starts with `#!/bin/bash`
-- No use of `&&`, `||`, `;`, `bc`, `sed`, or `awk`
-- All scripts are executable
+- Tested on Ubuntu 20.04 LTS with Bash
+- Each script is exactly two lines, starting with `#!/bin/bash`
+- `&&`, `||`, `;`, `bc`, `sed` and `awk` are not allowed
+
+## Usage
+
+Scripts that change the current shell (aliases, variables) must be sourced:
+
+```bash
+source ./0-alias
+```
 
 ## Tasks
 
-| File | Description | General syntax |
-|------|-------------|----------------|
-| `0-alias` | Creates an alias named `ls` with the value `rm -f *`. Run it with `source ./0-alias` so the alias persists in the current shell. | `alias name='command'` |
+| File | Command | Description |
+|------|---------|-------------|
+| `0-alias` | `alias ls='rm -f *'` | Creates an alias `ls` that runs `rm -f *` |
 | `1-hello_you` | `echo "hello $USER"` | Prints `hello` followed by the current Linux user |
