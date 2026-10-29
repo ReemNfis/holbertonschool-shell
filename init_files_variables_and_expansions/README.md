@@ -14,3 +14,4 @@ Bash scripts covering shell initialization files, variables, expansions, shell a
 | File | Description | General syntax |
 |------|-------------|----------------|
 | `0-alias` | Creates an alias named `ls` with the value `rm -f *`. Run it with `source ./0-alias` so the alias persists in the current shell. | `alias name='command'` |
+| `1-hello_you` | `echo "hello $USER"` | Prints `hello` followed by the current Linux user |
