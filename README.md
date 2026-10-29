@@ -22,3 +22,4 @@ source ./0-alias
 |------|---------|-------------|
 | `0-alias` | `alias ls='rm -f *'` | Creates an alias `ls` that runs `rm -f *` |
 | `1-hello_you` | `echo "hello $USER"` | Prints hello followed by the current user |
+| `1-hello_you` | `echo "hello $USER"` | Prints `hello` followed by the current Linux user |
