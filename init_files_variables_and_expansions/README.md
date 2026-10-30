@@ -28,3 +28,4 @@ source ./0-alias
 | `5-local_variables` | `set` | Lists all local variables, environment variables and functions |
 | `6-create_local_variable` | `BEST="School"` | Creates a local variable `BEST` with the value `School` |
 | `7-create_global_variable` | `export BEST="School"` | Creates a global (environment) variable `BEST` with the value `School` |
+| `8-true_knowledge` | `echo $((128 + TRUEKNOWLEDGE))` | Prints the sum of 128 and the value of `TRUEKNOWLEDGE` |
