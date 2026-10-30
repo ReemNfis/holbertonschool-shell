@@ -31,3 +31,4 @@ source ./0-alias
 | `8-true_knowledge` | `echo $((128 + TRUEKNOWLEDGE))` | Prints the sum of 128 and the value of `TRUEKNOWLEDGE` |
 | `9-divide_and_rule` | `echo $((POWER / DIVIDE))` | Prints the result of `POWER` divided by `DIVIDE` |
 | `10-love_exponent_breath` | `echo $((BREATH ** LOVE))` | Prints `BREATH` raised to the power of `LOVE` |
+| `11-binary_to_decimal` | `echo $((2#$BINARY))` | Converts the base 2 number in `BINARY` to base 10 |
