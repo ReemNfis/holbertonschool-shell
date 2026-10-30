@@ -26,3 +26,4 @@ source ./0-alias
 | `3-paths` | `echo "$PATH" \| tr ":" "\n" \| grep -c '.'` | Counts the number of directories in `PATH` |
 | `4-global_variables` | `printenv` | Lists all environment (global) variables |
 | `5-local_variables` | `set` | Lists all local variables, environment variables and functions |
+| `6-create_local_variable` | `BEST="School"` | Creates a local variable `BEST` with the value `School` |
