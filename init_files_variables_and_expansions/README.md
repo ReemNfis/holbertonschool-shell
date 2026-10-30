@@ -32,3 +32,4 @@ source ./0-alias
 | `9-divide_and_rule` | `echo $((POWER / DIVIDE))` | Prints the result of `POWER` divided by `DIVIDE` |
 | `10-love_exponent_breath` | `echo $((BREATH ** LOVE))` | Prints `BREATH` raised to the power of `LOVE` |
 | `11-binary_to_decimal` | `echo $((2#$BINARY))` | Converts the base 2 number in `BINARY` to base 10 |
+| `12-combinations` | `printf "%s\n" {a..z}{a..z} \| grep -v oo` | Prints all two-letter combinations from `aa` to `zz`, except `oo` |
