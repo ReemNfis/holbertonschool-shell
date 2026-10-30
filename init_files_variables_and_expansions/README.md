@@ -34,3 +34,4 @@ source ./0-alias
 | `11-binary_to_decimal` | `echo $((2#$BINARY))` | Converts the base 2 number in `BINARY` to base 10 |
 | `12-combinations` | `printf "%s\n" {a..z}{a..z} \| grep -v oo` | Prints all two-letter combinations from `aa` to `zz`, except `oo` |
 | `13-print_float` | `printf "%.2f\n" "$NUM"` | Prints the value of `NUM` with two decimal places |
+| `14-decimal_to_hexadecimal` | `printf "%x\n" "$DECIMAL"` | Converts the base 10 number in `DECIMAL` to base 16 |
