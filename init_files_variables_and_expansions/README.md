@@ -30,3 +30,4 @@ source ./0-alias
 | `7-create_global_variable` | `export BEST="School"` | Creates a global (environment) variable `BEST` with the value `School` |
 | `8-true_knowledge` | `echo $((128 + TRUEKNOWLEDGE))` | Prints the sum of 128 and the value of `TRUEKNOWLEDGE` |
 | `9-divide_and_rule` | `echo $((POWER / DIVIDE))` | Prints the result of `POWER` divided by `DIVIDE` |
+| `10-love_exponent_breath` | `echo $((BREATH ** LOVE))` | Prints `BREATH` raised to the power of `LOVE` |
